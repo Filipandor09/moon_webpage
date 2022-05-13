@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
+
+*
+{
+  font-family: 'Mina', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+body
+{
+  overflow-x: hidden;
+  background-color: black;
+  background-position: auto;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  min-height: 100vh;
+}
+#header
+{
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 100vh;
+    padding: 5px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    background-color: black;
+    z-index: 1;
+}
+
+#header .style
+{
+  font-weight: 800;
+}
+
+#header .logo
+{
+  color: darkgray;
+  font-weight: 700;
+  font-size: 3em;
+  text-decoration: none;
+}
+
+#header ul
+{
+  display: flex;
+  justify-content: center;
+}
+
+#header ul li
+{
+  list-style: none;
+  margin-left: 20px;
+}
+
+#header ul li a
+{
+  text-decoration: none;
+  padding: 6px;
+  color: darkgray;
+  font-weight: 700;
+  border-radius: 40px;
+}
+
+#header ul li a:hover
+{
+  background: #5a5a5a;
+}
+
+section
+{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section #text
+{
+  position: absolute;
+  color: darkgray;
+  font-size: 8.5vw;
+  text-align: center;
+}
+
+.sec
+{
+  position: relative;
+  padding: 100px;
+  background: #5a5a5a;
+  background-image: url("assets/lroc_color_poles_1k.jpg");
+}
+
+.sec h2
+{
+  font-size: 3.5em;
+  color: black;
+  margin-bottom: 10px;
+  z-index: 0;
+}
+
+.sec p
+{
+  font-size: 23px;
+  color: black;
+  padding-bottom: 10px;
+}
+
+.sec a
+{
+  text-align: center;
+}
+
+#btn
+{
+  text-decoration: none;
+  color: darkgray;
+  background: #5a5a5a;
+  border-radius: 40px;
+  font-size: 3em;
+  padding: 10px 15px;
+  display: inline-block;
+  font-weight: 500;
+}
+
+#more
+{
+  text-align: center;
+}
+
+#poka
+{
+  padding: 20px;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+#moon1
+{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+#foto img
+{
+  text-align: center;
+  size: 50%;
+}
+.foto
+{
+  text-align: center;
+}
+
+#footer{
+  color: white;
+  height: 20px;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+table, th, td
+{
+  border: 2px solid black;
+  border-collapse: collapse;
+  color: black;
+  background: lightgray;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+  table-layout: fixed;
+}
+
+p::selection{
+  color:darkgray;
+  background: #5a5a5a;
+}
+
+h2::selection
+{
+  color:darkgray;
+  background: #5a5a5a;
+}
+
+h1::selection
+{
+  color:darkgray;
+  background: #5a5a5a;
+}
+
+a::selection
+{
+  color:darkgray;
+  background: #5a5a5a;
+}
